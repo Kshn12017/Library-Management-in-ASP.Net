@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="Home"  description="">
+	  <siteMapNode url="~/Manage.aspx" title="Manage"/>
+	  <siteMapNode url="~/IssueBook.aspx" title="Issue Book"/>
+	  <siteMapNode url="~/ReturnBook.aspx" title="Return Book"/>
+	  <siteMapNode url="" title="List">
+		  <siteMapNode url="~/BookList.aspx" title="Book List"/>
+		  <siteMapNode url="~/IssuedBooks.aspx" title="Issued Books" />
+		  <siteMapNode url="~/ReturnedBooks.aspx" title="Returned Books" />
+	  </siteMapNode>
+  </siteMapNode>
+</siteMap>

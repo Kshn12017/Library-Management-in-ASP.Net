@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="DemonicLibrary.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            color: black;
+        }
+        #footer{
+            background-color: #9b2b2b;
+            bottom:0px;
+            position: fixed;
+        }
+        .auto-style3 {
+            width: 950px;
+        }
+        .auto-style4 {
+            left: -4px;
+            bottom: 38px;
+            width: 1832px;
+        }
+        a:link {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        siteMapNode{
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        p{
+            color:white;
+        }
+        .auto-style5 {
+            width: 50px;
+        }
+        #header{
+            background-color: #9b2b2b;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1" id="header">
+            <tr>
+                <td class="auto-style5">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/books.png" height="60px" Width="60px"/>
+                </td>
+                <td>
+                    <h2>&nbsp; Libarary Management Application</h2>
+                </td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+        <div id="footer" class="auto-style4">
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style3">
+                        <p>&nbsp;&nbsp; Copyrights Reserved</p>
+                    </td>
+                    <td>
+                        <p>Contact: <a href="mailto:tiwarikshvait20@student.mes.ac.in">Kshitiz Tiwari</a></p>
+                    </td>
+                </tr>
+            </table>
+            </div>
+        </form>
+</body>
+</html>

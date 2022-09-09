@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemonicLibrary", "DemonicLibrary\DemonicLibrary.csproj", "{656DD4FA-3CD6-43BC-8642-99376D83220C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{656DD4FA-3CD6-43BC-8642-99376D83220C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656DD4FA-3CD6-43BC-8642-99376D83220C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656DD4FA-3CD6-43BC-8642-99376D83220C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656DD4FA-3CD6-43BC-8642-99376D83220C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B453500-2786-44BC-8F6B-09C65E8988F0}
+	EndGlobalSection
+EndGlobal
